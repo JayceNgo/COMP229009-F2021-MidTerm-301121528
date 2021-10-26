@@ -1,0 +1,28 @@
+/* Filename: style.css
+Student's name : Ngo Tran Manh Hiep.
+Student ID: 301121528.
+Web app name: http://localhost:3000
+Date: 26nd Oct 2021 */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+a{
+  text-decoration: none;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.flash{
+  color: red;
+}
